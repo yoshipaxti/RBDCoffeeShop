@@ -1,0 +1,191 @@
+body, ul {
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ccaa66; 
+  padding: 0px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 80px; 
+  height: 80px; 
+  margin-right: 10px; 
+  margin-left: 20px;
+}
+
+.logo {
+  color: #513e00;
+  font-size: large;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex; 
+}
+
+nav ul li {
+  margin-right: 80px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: large;
+  padding: 10px; 
+  border: 1px solid transparent; 
+}
+
+nav ul li a.active {
+  color: #7d6000;
+}
+
+nav ul li a:hover {
+  color: #7d6000;
+  border-color: #7d6000;
+}
+
+.content {
+  text-align: center;
+  padding: 50px;
+}
+
+#home {
+  color: white;
+  text-align: left;
+  margin-top: 1px;  
+  margin-left: 40%;
+  margin-bottom: 0;
+  width: 50%;
+  height: 50%;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-size: 100px;
+}
+
+main{
+  background-image: url('img/br.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px; 
+  opacity: 0.9;
+}
+
+#mid {
+  text-align: center;
+}
+
+footer {
+  background-color: #ccaa66;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#menu {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+  transform: scale(1.1);
+}
+
+.menu-item .description {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.menu-item:hover .description {
+  display: block;
+}
+
+
+.description {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.music-player audio {
+  width: 50%;
+  color: black;
+}
+
+.job {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.job h2 {
+  margin-top: 0;
+}
+
+.job img {
+  max-width: 100%;
+  height: auto;
+}
+
+.job .description ul {
+  margin: 10px 0;
+  padding-left: 20px;
+  list-style-type: none; 
+}
+
+.job .description ul li {
+  list-style: none; 
+}
+
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

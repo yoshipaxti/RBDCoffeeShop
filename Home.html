@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="This page is about my coffee shop"/>
+  <meta name="author" content="Rowel Dacut"/>
+  <meta name="viewport" content="width=device-width, initial-scale= 1">
+  <link rel="icon" href="logo.png" type="image/x-icon"/>
+  <title>RBD Coffee Shop</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo-image">
+      <h1 class="logo">RBD Coffee Shop</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li><a href="#" onclick="showSection('menu')">Menu</a></li>
+        <li><a href="#" onclick="showSection('music')">Music</a></li>
+        <li><a href="#" onclick="showSection('jobs')">Jobs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="content">
+      <h1 id="mid">Welcome to RBD Coffee Shop!</h1>
+      <p id="siz">We are a locally-owned coffee shop that takes pride in serving the finest, freshly brewed coffee in town. Our baristas are passionate about delivering the perfect cup of joe every time, and we use only premium quality beans sourced from sustainable farms across the world.
+        <br>
+        <br> At our cozy and welcoming cafe, you'll find a menu filled with deliciously crafted espresso drinks, specialty lattes, and teas.
+        <br>
+        <br> Whether you're looking for a quick morning pick-me-up or a relaxing afternoon treat, our friendly staff is always here to make your experience an enjoyable one. Come and join us at our coffee shop and discover why we're the go-to spot for coffee lovers in town!
+        </p>
+        <br>
+    </section>
+  </main>
+
+  <section id="menu" class="content" style="display: none;">
+    <h1>Our Menu</h1>
+    <p>Check out our delicious offerings.</p>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="img/Hazelnut.jpg" alt="Hazelnut">
+        <h3>Hazelnut</h3>
+        <p class=" description">A rich, nutty flavor that adds warmth and depth to coffee.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Caramel.jpg" alt="Caramel">
+        <h3>Caramel</h3>
+        <p class="description">A sweet, buttery flavor that complements the bitterness of coffee.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Mocha.jpg" alt="Mocha">
+        <h3>Mocha</h3>
+        <p class="description">A chocolate-flavored coffee that can be made with milk or dark chocolate.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Vanilla.jpg" alt="Vanilla">
+        <h3>Vanilla</h3>
+        <p class="description">A classic, sweet flavor that pairs well with coffee.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Irish Cream.jpg" alt="Irish Cream">
+        <h3>Irish Cream</h3>
+        <p class="description">A creamy, whiskey-based flavor that adds richness and a slight kick to coffee.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Coconut.jpg" alt="Coconut">
+        <h3>Coconut</h3>
+        <p class="description"> A tropical, slightly sweet flavor that can add a touch of exoticism to your coffee.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Chocolate.jpg" alt="Chocolate">
+        <h3>Chocolate</h3>
+        <p class="description">A decadent, indulgent flavor that can take your coffee to the next level.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Almond.png" alt="Almond">
+        <h3>Almond</h3>
+        <p class="description">A nutty, slightly sweet flavor that can provide a nice contrast to coffee's bitterness.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Tofffee.png" alt="Toffee">
+        <h3>Toffee</h3>
+        <p class="description">A rich, caramel-like flavor that works well in coffee.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="img/Pumpkin Spice.png" alt="Pumpkin Spice">
+        <h3>Pumpkin Spice</h3>
+        <p class="description">A seasonal flavor that combines cinnamon, nutmeg, ginger, and cloves to create a warm, cozy taste that's perfect for autumn.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="music" class="content" style="display: none;">
+    <h1>Live Music</h1>
+    <p>Experience great music while sipping your coffee.</p>
+    <div class="music-player">
+      <br>
+      <audio id="audioPlayer" controls>
+        <source src="music/1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+        <p class="description">Gymnopédie No. 1</p>
+      <audio id="audioPlayer2" controls>
+        <source src="music/2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">The Swan </p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Nocturne in E flat major, Op. 9 No. 2</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/4.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Air on the G String</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/5.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Canon in D</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/6.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Adagio for Strings</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/7.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Eine Kleine Nachtmusik</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/8.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Clair de Lune</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/9.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">Moonlight Sonata</p>
+      <audio id="audioPlayer3" controls>
+        <source src="music/10.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description">The Four Seasons</p>
+    </div>
+  </section>
+  
+
+  <section id="jobs" class="content" style="display: none;">
+    <h1>Join Our Team</h1>
+    <p>Explore exciting job opportunities at our coffee shop.</p> 
+      <div class="job">
+        <h2>Barista</h2>
+        <img src="img/barista.png" alt="Barista Job Opportunity">
+        <p class="description">
+          <strong>Responsibilities:</strong>
+          <p>
+            <br>Prepare and serve high-quality coffee beverages to customers
+            <br>Operate espresso machines and other equipment
+            <br>Provide exceptional customer service in a fast-paced environment
+            <br>Handle cash transactions and maintain accurate records
+            <br>Ensure cleanliness and sanitation of the work area
+            <br>Prior barista experience preferred but not required
+          </p>
+        </p>
+      </div>
+    
+      <div class="job">
+        <h2>Shift Supervisor</h2>
+        <img src="img/supervisor.png" alt="Shift Supervisor Job Opportunity">
+        <p class="description">
+          <strong>Responsibilities:</strong>
+          <p>
+            <br>Supervise and train baristas on coffee preparation, customer service, and store procedures
+            <br>Assist with inventory management and ordering supplies
+            <br>Maintain a clean and organized store environment
+            <br>Handle cash transactions and reconcile daily sales reports
+            <br>Resolve customer complaints and ensure high levels of customer satisfaction
+            <br>Prior supervisory experience in a coffee shop or related field preferred
+          </p>
+        </p>
+      </div>
+    
+    <p class="description"><strong> if you're interested in applying for one of these positions, please send your resume and cover letter to RBDcoffeeshop@ccmail.uk. We look forward to hearing from you!</strong></p>
+    </section>
+
+  <footer>
+    <p>&copy; 2023 RBD Coffee Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
